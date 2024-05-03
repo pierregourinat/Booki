@@ -35,8 +35,6 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  align-content: space-between;
-  height: 79px;
 }
 
 header img {
@@ -158,7 +156,6 @@ h1 {
   font-weight: 700;
   line-height: normal;
   align-items: center;
-  gap: 15px;
 }
 
 .filters-buttons {
@@ -182,14 +179,6 @@ h1 {
 .filters-button:hover {
   background-color: var(--filter-bg-color);
 }
-
-/* .fa-money-bill-wave {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 22px;
-  height: 22px;
-} */
 
 .info {
   display: flex;
