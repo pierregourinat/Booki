@@ -259,7 +259,10 @@ h1 {
   justify-content: space-between;
 }
 
-.hebergements-and-populaires section {
+/* Remplacement sélecteur .hebergements-and-populaires section par les classes de ces sections.
+Résolution d'un conflit  de hiérarchie du code créant un problème sur le background  "les plus populaires" de la la version mobile*/
+.hebergements,
+.populaires {
   background-color: var(--main-bg-color);
   border-radius: 20px;
   padding: 30px;
@@ -534,6 +537,10 @@ h3 {
   }
 
   main {
+    padding: 0;
+  }
+
+  .search-section {
     padding: 0 20px;
   }
 
@@ -575,5 +582,52 @@ h3 {
   .filters li {
     font-size: 14px;
     flex: 25%;
+  }
+
+  /* HEBERGEMENT ET POPULAIRES */
+
+  .hebergements-and-populaires {
+    flex-direction: column-reverse;
+    gap: 15px;
+  }
+
+  .hebergements-and-populaires section {
+    padding: 30px 20px;
+    border-radius: 0;
+  }
+
+  .populaires {
+    margin-top: 0;
+  }
+
+  .populaires-cards {
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 15px;
+  }
+
+  .populaires-cards .card {
+    margin: 0;
+    padding: 5px 10px 5px 5px;
+  }
+
+  .populaires-cards a {
+    width: 100%;
+  }
+
+  .populaires-cards .card-rating {
+    margin-bottom: 0;
+  }
+
+  .hebergements {
+    background-color: transparent;
+  }
+  .hebergements-cards {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .hebergements-cards a {
+    width: 100%;
   }
 }
