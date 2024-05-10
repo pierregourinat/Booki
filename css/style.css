@@ -630,4 +630,45 @@ h3 {
   .hebergements-cards a {
     width: 100%;
   }
+  /* ACTIVITES MARSEILLE */
+  .activites-marseille {
+    padding: 30px 20px;
+  }
+  .activites {
+    padding: 0;
+  }
+  .activites-cards {
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 15px;
+  }
+
+  .activites-cards a {
+    width: 100%;
+  }
+
+  .activites-marseille .card {
+    margin-top: 0;
+    padding: 0;
+  }
+
+  .activites-cards img {
+    height: 141px;
+  }
+
+  .activites-cards .card-content {
+    height: 50px;
+  }
+
+  /* FOOTER */
+
+  .footer-container {
+    flex-direction: column;
+    padding: 30px 20px;
+    gap: 50px;
+  }
+
+  .footer-column {
+    padding: 0;
+  }
 }
