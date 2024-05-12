@@ -395,6 +395,10 @@ Résolution d'un conflit  de hiérarchie du code créant un problème sur le bac
   border-radius: 20px 20px 0 0;
 }
 
+.afficherplus {
+  display: none;
+}
+
 /* FOOTER CSS */
 
 footer {
@@ -509,6 +513,7 @@ h3 {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
+  /* NAVIGATION */
   header {
     flex-direction: column;
   }
@@ -539,7 +544,7 @@ h3 {
   main {
     padding: 0;
   }
-
+  /* SECTION RECHERCHE */
   .search-section {
     padding: 0 20px;
   }
@@ -658,6 +663,16 @@ h3 {
 
   .activites-cards .card-content {
     height: 50px;
+  }
+
+  .afficherplus {
+    display: block;
+    color: #000;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
   }
 
   /* FOOTER */
