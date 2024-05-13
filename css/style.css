@@ -446,6 +446,10 @@ h3 {
     flex-direction: column;
   }
 
+  .filters-button {
+    justify-content: flex-start;
+  }
+
   .filters p {
     margin: 0;
     align-self: flex-start;
@@ -586,7 +590,7 @@ h3 {
 
   .filters li {
     font-size: 14px;
-    flex: 25%;
+    width: 48%;
   }
 
   /* HEBERGEMENT ET POPULAIRES */
@@ -673,6 +677,7 @@ h3 {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-top: 15px;
   }
 
   /* FOOTER */

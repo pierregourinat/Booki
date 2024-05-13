@@ -21,7 +21,6 @@
       src="https://kit.fontawesome.com/839a3db2e2.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
 
@@ -45,21 +44,23 @@
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
             <p class="subtitle">En plein centre-ville ou en pleine nature</p>
           </div>
-          <div class="search">
-            <div class="locationicon">
-              <i class="fa-solid fa-location-dot"></i>
+          <form action="" method="get">
+            <div class="search">
+              <div class="locationicon">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <input
+                type="search"
+                id="city-search"
+                name="q"
+                placeholder="Marseille, France"
+              />
+              <button class="button-search" type="submit">
+                <span class="rechercher">Rechercher</span>
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
             </div>
-            <input
-              type="search"
-              id="city-search"
-              name="q"
-              placeholder="Marseille, France"
-            />
-            <button class="button-search">
-              <span class="rechercher">Rechercher</span>
-              <i class="fa-solid fa-magnifying-glass"></i>
-            </button>
-          </div>
+          </form>
           <div class="filters">
             <p>Filtres</p>
             <ul>
@@ -422,7 +423,7 @@
                 </article>
               </a>
             </div>
-            <p class="afficherplus">Afficher plus</p>
+            <a href="" class="afficherplus">Afficher plus</a>
           </section>
         </div>
         <footer>
